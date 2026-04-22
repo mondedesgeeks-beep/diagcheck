@@ -774,10 +774,10 @@ function DevisForm(props) {
     //
     // 4. Remplace les 4 valeurs ci-dessous par les tiennes :
     // ══════════════════════════════════════════════════════
-    var EMAILJS_SERVICE_ID = "service_XXXXXXX";              // <-- ton Service ID
-    var EMAILJS_TEMPLATE_ID = "template_XXXXXXX";            // <-- Template devis (vers contact.ain)
-    var EMAILJS_CONFIRM_TEMPLATE_ID = "template_XXXXXXX";   // <-- Template confirmation (vers l'agent)
-    var EMAILJS_PUBLIC_KEY = "XXXXXXXXXXXXXXX";              // <-- ta Public Key
+    var EMAILJS_SERVICE_ID = "service_te2ih36";              // <-- ton Service ID
+    var EMAILJS_TEMPLATE_ID = "template_edksj5j";            // <-- Template devis (vers contact.ain)
+    var EMAILJS_CONFIRM_TEMPLATE_ID = "template_f2zq0cu";   // <-- Template confirmation (vers l'agent)
+    var EMAILJS_PUBLIC_KEY = "EbNcdJaQ6N3f6_r6l";              // <-- ta Public Key
 
     var templateParams = {
       to_email: MON_EMAIL,
