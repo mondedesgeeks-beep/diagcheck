@@ -120,7 +120,6 @@ function computeDiagsParticulier(a) {
     if (annee < 1997) diags.push({ id: "DTA", label: "Amiante — DTA", full: "Dossier Technique Amiante", icon: "🧱", color: "#ef4444", scope: "Local", duree_mois: null, duree_label: "Dossier vivant", duree_detail: [{ cas: "Avant avril 2013 non mis à jour", val: "CADUC" }, { cas: "Présence liste A", val: "3 ans" }, { cas: "Présence liste B", val: "Illimité" }, { cas: "Absence", val: "Illimité" }], desc: "PC avant juillet 1997 = obligatoire." });
     diags.push({ id: "TERMITES", label: "Termites", full: "État relatif à la présence de termites", icon: "🐛", color: "#84cc16", scope: "Local", duree_mois: a.zone_termites === true ? 6 : null, duree_label: "6 mois si zone", obligatoire: a.zone_termites === true, incertain: a.zone_termites === "sais_pas", desc: a.zone_termites === true ? "Zone à risque — 6 mois." : "Vérifiez en mairie." });
     if (isVente) diags.push({ id: "CARREZ", label: "Loi Carrez", full: "Mesurage Loi Carrez", icon: "📐", color: BLUE, scope: "Local", duree_mois: null, duree_label: "Illimité sauf travaux", alerte: "Engagement 1 an", desc: "Vente uniquement." });
-    if (isLocation) diags.push({ id: "BOUTIN", label: "Loi Boutin", full: "Mesurage surface", icon: "📏", color: BLUE, scope: "Local", duree_mois: null, duree_label: "Illimité sauf travaux", desc: "Location uniquement." });
     return diags;
   }
 
