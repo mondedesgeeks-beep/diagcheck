@@ -21,7 +21,6 @@
  *   la Propriété Intellectuelle, passible de 3 ans d'emprisonnement et
  *   300 000 € d'amende.
  *
- *   Empreinte numérique horodatée déposée à l'INPI (Enveloppe Soleau).
  *   Ce code contient des marqueurs invisibles d'identification permettant
  *   de prouver sa paternité même après modification superficielle.
  *
