@@ -15,7 +15,7 @@
  *   ⚠️ AVERTISSEMENT JURIDIQUE — LIRE ATTENTIVEMENT
  *
  *   Ce code source est la propriété intellectuelle exclusive d'Adrien
- *   Ottonello. Toute reproduction, copie, modification, distribution ou
+ *   Ottonello Toute reproduction, copie, modification, distribution ou
  *   utilisation sans autorisation écrite préalable de l'auteur constitue
  *   une contrefaçon au sens des articles L.335-2 et suivants du Code de
  *   la Propriété Intellectuelle, passible de 3 ans d'emprisonnement et
